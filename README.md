@@ -1,3 +1,2 @@
-# UNIMAZE
-![alt text](https://github.com/henriquejsb/UNIMAZE/blob/main/boneco.png?raw=true)
+# UNIMAZE ![alt text](https://github.com/henriquejsb/UNIMAZE/blob/main/boneco.png?raw=true)
 A 2D game that tells the story of a college student trying to finish all his courses in one year so his parents won't find out he has been failing every year, developed in HTML, CSS and Javascript.  May require an HTTPS local server running to work properly. In collaboration with Filipe Good (https://github.com/FilipeGood) and Flávio Pereira (https://www.linkedin.com/in/flaviojfpereira/).
