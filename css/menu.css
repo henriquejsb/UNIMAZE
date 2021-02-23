@@ -1,0 +1,91 @@
+button{
+	
+	 -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background: black;
+    border-color: black;
+}
+
+button:hover{
+    background: #a0a0a0;
+}
+
+
+button:active{
+    color: white;
+    background: #262626;
+}
+
+
+
+
+#BTN{
+    background-image: url("../resources/uni.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+	text-align: center;
+    width:600px;
+    height :630px;
+    
+	
+}
+
+
+#playBtn{
+    position: absolute;
+    margin-left : -15%;
+    margin-top : 25%;
+  
+  
+
+}
+
+#helpBtn{
+    position: absolute;
+        margin-left : -15%;
+
+    top:38%;
+
+}
+
+#settingsBtn{
+    position: absolute;
+        margin-left : -15%;
+
+
+    margin-top: 53%;
+
+}
+
+#scoreBtn{
+    position: absolute;
+    margin-top: 69%;
+    margin-left : -15%;
+
+
+}
+
+#creditsBtn{
+    position: absolute;
+    margin-top: 85%;
+    margin-left : -15%;
+
+}
+
+#audioBtn{
+    position: absolute;
+    background: transparent;
+    border-color: transparent;
+    transition-duration: 0s;
+    outline: none;
+    top: 2%;
+    left: 90%;
+}
+
+#audioBtn:active{
+    color: transparent;
+    background: transparent;
+}

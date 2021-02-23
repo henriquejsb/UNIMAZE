@@ -1,0 +1,171 @@
+
+@font-face {
+    font-family: cornerstone;
+    /*src: url("../resources/Fyodor-Bold.eot") format("embedded-opentype");*/
+    src: url("../resources/Fyodor-Bold.woff");
+    /*src: url(../resources/Fyodor-Bold.ttf) format("truetype");*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+#img{
+    background-image: url("../resources/exame.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+	text-align: center;
+    width:600px;
+    height :630px;
+    
+	
+}
+#first{
+    position: relative;
+    left: -25%;
+    top: 10%;
+    background-color: #282828; 
+    color: white;
+    border-color:#282828;
+}
+#second{
+    position: relative;
+    top: 35%;
+    left: -31.5%;
+    background-color: #282828; 
+    color: white;
+    border-color:#282828;
+}
+#third{
+    position: relative;
+    top: 60%;
+    left: -38%;
+    background-color: #282828; 
+    color: white;
+    border-color:#282828;
+}
+#fourth{
+    position: relative;
+    top: 85%;
+    left: -44.5%;
+    background-color: #282828; 
+    color: white;
+    border-color:#282828;
+} 
+#res1{
+    position: absolute;
+    top: 20%;
+    left: 120px;
+    font-family: cornerstone;
+
+    border-style: solid;
+}
+#res2{
+     position: absolute;
+    top: 38%;
+    left: 120px;
+    border-style: solid;
+    font-family: cornerstone;
+}
+#res3{
+     position: absolute;
+    top: 57%;
+    left: 120px;
+    font-family: cornerstone;
+    border-style: solid;
+}
+#res4{
+     position: absolute;
+    top: 75%;
+    left: 120px;
+    font-family: cornerstone;
+    border-style: solid;
+}
+#pergunta{
+    position: absolute;
+    top: 25%;
+    font-family: cornerstone;
+    font-size: 25px;
+    border-style: solid;
+    background: rgba(155, 155, 155, 0.8); 
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    width:593px;
+    height: 100px;
+
+}
+#aux{
+    position: absolute;
+    top: 85%;
+    left: 200px;
+    font-size: 190%;
+    font-family: cornerstone;
+    border-style: solid;
+    border-width: 5px;
+    background-color: #969696;
+    width:200px;
+    height: 40px;
+
+}
+#menuBtn{
+    position: absolute;
+    right: 5%;
+    top:85%;
+
+
+
+}
+
+#respostas{
+    position: relative;
+  width: 400px;
+  height: 150px;
+  padding: 25px;
+  margin-left:auto;
+  margin-right:auto;
+  top:45%;
+   background: rgba(155, 155, 155, 0.8); 
+}
+
+}
+
+
+
+button{
+    
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background: black;
+    border-color: black;
+}
+
+button:hover{
+    background: #a0a0a0;
+}
+
+
+button:active{
+    color: white;
+    background: #262626;
+}
+
+
+
+#audioBtn{
+    position: absolute;
+    background: transparent;
+    border-color: transparent;
+    transition-duration: 0s;
+    outline: none;
+    top: 2%;
+    left: 90%;
+}
+
+#audioBtn:active{
+    color: transparent;
+    background: transparent;
+}
+

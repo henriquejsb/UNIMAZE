@@ -1,0 +1,99 @@
+@font-face {
+    font-family: cornerstone;
+    /*src: url("../resources/Fyodor-Bold.eot") format("embedded-opentype");*/
+    src: url("../resources/Fyodor-Bold.woff");
+    /*src: url(../resources/Fyodor-Bold.ttf) format("truetype");*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+#BTN{
+    background-image: url("../resources/uni.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    width:600px;
+    height :630px;
+    
+    
+}
+
+h1{
+    
+    position: absolute;
+    text-align:center;
+    font-size:400%;
+    width: 100%;
+    top:15%;
+    font-family: cornerstone;
+ }
+
+
+ #main{
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    border: 7px solid black;
+    padding: 25px;
+    top: 40%;
+    left:12%;
+    text-align: center;
+    background: rgb(204, 204, 204);     
+    background: rgba(204, 204, 204, 0.5);
+    font-size:200%;
+    font-size:150%;
+    font-family: cornerstone;
+    text-shadow: 2px 2px #f0f0f0;
+    
+ }
+
+#menuBtn{
+    position: absolute;
+    right:30%;
+    top:80%;
+
+
+}
+
+
+
+button{
+    
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background: black;
+    border-color: black;
+}
+
+button:hover{
+    background: #a0a0a0;
+}
+
+
+button:active{
+    color: white;
+    background: #262626;
+}
+
+
+#audioBtn{
+    position: absolute;
+    background: transparent;
+    border-color: transparent;
+    transition-duration: 0s;
+    outline: none;
+    top: 2%;
+    left: 90%;
+}
+
+#audioBtn:active{
+    color: transparent;
+    background: transparent;
+}

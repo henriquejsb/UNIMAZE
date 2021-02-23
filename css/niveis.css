@@ -1,0 +1,220 @@
+
+ #BTN{
+  background-image: url("../resources/uni.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+  text-align: center;
+    width:600px;
+    height :630px;
+ }
+
+
+#square{
+  position: relative;
+  width: 400px;
+  height: 250px;
+  padding: 25px;
+  margin-left:auto;
+  margin-right:auto;
+  top:30%;
+   background: rgba(155, 155, 155, 0.8); 
+}
+
+#b1{
+	position: relative;
+	top:0%;
+	left:0%;
+	background: url(../resources/1l.png);
+	background-size: 45px 45px;
+	width: 50px;
+	height:50px;
+}
+
+#b2{
+	position: relative;
+	top: 0%;
+	left: 8%;
+	background: url(../resources/2l.png);
+	background-size: 45px 45px;
+	width: 50px;
+	height:50px;
+}
+#b3{
+    position: relative;
+    top: 0%;
+    left:16%;
+    font-size: 35px;
+    background: url(../resources/3l.png);
+	background-size: 45px 45px;
+	width: 50px;
+	height:50px;
+
+}
+
+#b4{
+   	position: relative;
+   	top:0%;
+   	left: 24%;
+   	background: url(../resources/4l.png);
+	background-size: 45px 45px;
+	width: 50px;
+	height:50px;
+ }
+#b5{
+    position: relative;
+    top:0%;
+   	left: 32%;
+    background: url(../resources/5l.png);
+	background-size: 45px 45px;
+	width: 50px;
+	height:50px;
+}
+
+#b6{
+   position: relative;
+   top:34%;
+   right:68%;
+   background: url(../resources/6l.png);
+	 background-size: 45px 45px;
+	 width: 50px;
+	 height:50px;
+}
+
+
+
+#b7{
+    position: relative;
+    top:34%;
+   right: 59%;
+    background: url(../resources/7l.png);
+	background-size: 45px 45px;
+	width: 50px;
+	height:50px;
+}
+
+
+#b8{
+    position:relative;
+    top:14%;
+    left: 43%;
+   	background: url(../resources/8l.png);
+	background-size: 45px 45px;
+	width: 50px;
+	height:50px;
+}
+
+#b9{
+    position: relative;
+    top:14%;
+   	left: 51%;
+   	background: url(../resources/9l.png);
+	background-size: 45px 45px;
+	width: 50px;
+	height:50px;
+}
+
+#b10{
+	position: relative;
+   top: 14%;
+  	left: 59%;
+   	background: url(../resources/10l.png);
+	background-size: 45px 45px;
+	width: 50px;
+	height:50px;
+}
+
+#b11{
+  position: relative;
+  top:48%;
+  right: 41%;
+  background: url(../resources/11l.png);
+  background-size: 45px 45px;
+  width: 50px;
+  height:50px;
+}
+ 
+#b12{
+  position: relative;
+    top:48%;
+    right:32%;
+    background: url(../resources/12l.png);
+  background-size: 45px 45px;
+  width: 50px;
+  height:50px;
+}
+
+#b13{
+  position: relative;
+    top:48%;
+    right: 24.5%;
+    background: url(../resources/13l.png);
+  background-size: 45px 45px;
+  width: 50px;
+  height:50px;
+}
+
+#b14{
+  position: relative;
+  top:48%;
+    right: 16.5%;
+    background: url(../resources/14l.png);
+  background-size: 45px 45px;
+  width: 50px;
+  height:50px;
+}
+
+#b15{
+  position: relative;
+  top: 26.5%;
+  left: 73%;
+  background: url(../resources/15l.png);
+  background-size: 45px 45px;
+  width: 50px;
+  height:50px;
+}
+
+
+#menuBtn{
+  position: relative;
+  top:84%;
+  margin-left:auto;
+  left: -4%;
+  
+  
+}
+
+button{
+  
+   -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background: black;
+    border-color: black;
+}
+
+button:hover{
+    background: #a0a0a0;
+}
+
+
+button:active{
+    color: white;
+    background: #262626;
+}
+
+#audioBtn{
+    position: absolute;
+    background: transparent;
+    border-color: transparent;
+    transition-duration: 0s;
+    outline: none;
+    top: 2%;
+    left: 90%;
+}
+
+#audioBtn:active{
+    color: transparent;
+    background: transparent;
+}

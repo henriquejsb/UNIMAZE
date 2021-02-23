@@ -1,0 +1,30 @@
+
+
+html,body
+{
+	margin: 0px;
+	overflow:hidden;
+	height: 100%;
+	width: 100%;
+
+
+}
+body{
+	
+	text-align:center;
+}
+iframe
+{	
+	margin: auto;
+	border: none;
+	overflow:show;
+	height: 100%;
+	width: 100%;
+}
+
+iframe
+{
+	background-color: transparent;
+}
+
+
